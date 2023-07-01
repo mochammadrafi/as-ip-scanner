@@ -6,7 +6,7 @@ The script makes use of the `requests` library to send HTTP requests to each IP 
 
 ## Usage
 
-1. Specify the AS number as a command-line argument when running the script.
+1. Run the script using the following command: `python3 scanner.py NUMBER`, Replace `NUMBER` with the desired AS number.
 2. The script will retrieve all IP addresses in the netblocks of the specified AS number and save them to `ips.txt`.
 3. It will then scan the web services running on those IP addresses and print the results to the console.
 4. Any open ports will be logged to `open_ports.txt` along with the associated domain names.
